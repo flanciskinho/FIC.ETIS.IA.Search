@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+</head><body><p style="text-align: center;"><br>
+  </p>
+   
+<h2>Práctica 2: Búsqueda informada A*.   </h2>
+ En la siguiente versión de search.c, se han realizado los cambios 
+oportunos para permitir búsqueda heurística con la estrategia
+A*. Las heurísticas se &nbsp;programan en los archivos de dominio.
+<br>
+ <br>
+ Crear un nuevo directorio y descargar en él las nuevas versiones
+de los siguientes ficheros:<br>
+   
+<div style="margin-left: 40px; font-family: monospace;"><a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/search.h">
+ search.h</a>, <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/search.c">
+ search.c</a><br>
+  <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p1ia305/Makefile">
+Makefile</a><br>
+  <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/hash.h">hash.h</a>
+ , <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/hash.c">hash.c</a><br>
+  <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/queue.h">queue.h</a>
+ , <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/queue.c">
+queue.c</a><br>
+  <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/mission.h">
+ mission.h</a>, <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/mission.c">
+ mission.c</a><br>
+  <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/8puzzle.h">
+ 8puzzle.h</a>, <a href="http://www.dc.fi.udc.es/%7Ebarreiro/iadocen/p2ia305/8puzzle.c">
+ 8puzzle.c</a><br>
+  <br>
+  </div>
+  <br>
+  Para seleccionar un dominio:<br>
+<br>
+  <span style="font-family: monospace;">&nbsp;&nbsp;&nbsp; make domain DOM=8puzzle<br>
+ </span><br style="font-family: monospace;">
+Para compilar:<br>
+<br>
+&nbsp;<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp; make </span>
+&nbsp;&nbsp; <br>
+<br>
+Para invocar el algoritmo ahora hay una nueva opción de manejo de la
+frontera:<br>
+ <br>
+Recuerden que <span style="font-family: monospace;">search</span> admite
+tres   parámetros  opcionales en línea de comando<br>
+     &nbsp;<span style="font-family: monospace;"><br>
+        search -a &lt;algoritmo&gt; -f &lt;tipodeinsercion&gt; -v<br>
+ <br>
+ </span> 
+<ul>
+   <li><span style="font-family: monospace;">-a &lt;algoritmo&gt;</span>
+      especifica el tipo de algoritmo que puede ser <span style="font-family: monospace;">
+       tree</span> (por defecto) o <span style="font-family: monospace;">
+graph.</span></li>
+   <li><span style="font-family: monospace;">-f &lt;tipodeinsercion&gt;</span>
+        fija la estrategia que puede ser <span style="font-family: monospace;">
+       depth</span>, <span style="font-family: monospace;">breadth </span><span style="font-family: monospace;"></span>
+  (por   defecto) o,&nbsp;<span style="font-family: monospace;"> <b>a-star</b></span>
+ .<span style="font-family: monospace;"><br>
+     </span></li>
+   <li><span style="font-family: monospace;">-v </span>cuando imprime   la 
+ solución, muestra todos los estados intermedios por los que va   pasando.</li>
+ 
+</ul>
+ Objetivos de la práctica:<br>
+ <br>
+ 1. Comprender la implementación de búsqueda heurística 
+A* para lo que se deben estudiar las modificaciones introducidas en search.c.<br>
+ <br>
+ 2. Comprender las heurísticas implementadas para los problemas de 
+8puzzle y mission, para lo que se deben estudiar los ficheros correspondientes.<br>
+ <br>
+ 3. Comparar las soluciones y requerimientos de la búsqueda no informada
+ 
+e informada, e implementar nuevas heurísticas. Para ello se implementará
+ 
+una nueva heurística admisible para el 8puzzle y se comparará con la 
+heurística implementada y con las búsquedas no informada (sólo con 
+búsqueda en anchura) en términos de completud, optimalidad y una 
+comparación de las dos heurísticas en cuanto a promedio de nodos 
+generados.<br>
+ <br>
+ 4. Implementar dos heurísticas para el problema del puzzle de números y
+ repetir los estudios que conlleva el objetivo 3. Implementar también el
+ caso particular de h=0 y determinar que tipo de búsqueda se hace en 
+este caso y cuales son sus propiedades.<br>
+ <br>
+ <br>
+ Entrega de la práctica: La práctica se entregará en las horas de 
+prácticas y en la fecha límite indicada por el profesor. Para
+el objetivo 3 se entregará una explicación de la nueva heurística
+implementada y los resultados que explican su comportamiento y las 
+comparaciones. De manera similar debe contestarse al objetivo 4. En las 
+heurísticas
+debe estudiarse de forma teórica la admisibilidad y dominancia, y
+constatar el efecto de esas propiedades en los resultados.<br>
+ <br>
+ <br>
+ <br>
+ <br>
+  <br>
+   
+</body></html>

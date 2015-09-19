@@ -1,0 +1,688 @@
+./search -a tree -f breadth
+./search -a tree -f a-star
+./search -a graph -f breadth
+./search -a graph -f a-star
+
+
+  {1,2,3},
+  {4,5,6},
+  {7,0,8}
+./search -a tree -f breadth
+Depth=1
+Cost=1
+2 expanded nodes.
+0.000 seconds.
+
+./search -a tree -f a-star
+h0
+Depth=1
+Cost=1
+2 expanded nodes.
+0.000 seconds.
+
+h1
+Depth=1
+Cost=1
+1 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=1
+Cost=1
+1 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f breadth
+Depth=1
+Cost=1
+2 expanded nodes.
+0.000 seconds.
+
+./search -a tree -f a-star
+h0
+Depth=1
+Cost=1
+2 expanded nodes.
+0.000 seconds.
+
+h1
+Depth=1
+Cost=1
+1 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=1
+Cost=1
+1 expanded nodes.
+0.000 seconds.
+
+
+  {1,2,3},
+  {0,5,6},
+  {4,7,8}
+
+./search -a tree -f breadth
+Depth=3
+Cost=3
+25 expanded nodes.
+0.000 seconds.
+
+./search -a tree -f a-star
+h0
+Depth=3
+Cost=3
+19 expanded nodes.
+0.000 seconds.
+
+h1
+Depth=3
+Cost=3
+3 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=3
+Cost=3
+3 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f breadth
+Depth=3
+Cost=3
+15 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=3
+Cost=3
+19 expanded nodes.
+0.000 seconds.
+
+h1
+Depth=3
+Cost=3
+3 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=3
+Cost=3
+3 expanded nodes.
+0.000 seconds.
+
+
+  {2,0,3},
+  {1,5,6},
+  {4,7,8}
+
+./search -a tree -f breadth
+Depth=5
+Cost=5
+137 expanded nodes.
+0.000 seconds.
+
+./search -a tree -f a-star
+h0
+Depth=5
+Cost=5
+275 expanded nodes.
+0.003 seconds.
+
+h1
+Depth=5
+Cost=5
+5 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=5
+Cost=5
+5 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f breadth
+Depth=5
+Cost=5
+39 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=5
+Cost=5
+54 expanded nodes.
+0.001 seconds.
+
+h1
+Depth=5
+Cost=5
+5 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=5
+Cost=5
+5 expanded nodes.
+0.000 seconds.
+
+
+  {2,3,6},
+  {1,5,0},
+  {4,7,8}
+
+./search -a tree -f breadth
+Depth=7
+Cost=7
+1993 expanded nodes.
+0.003 seconds.
+
+./search -a tree -f a-star
+h0
+Depth=7
+Cost=7
+979 expanded nodes.
+0.038 seconds.
+
+h1
+Depth=7
+Cost=7
+7 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=7
+Cost=7
+7 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f breadth
+Depth=7
+Cost=7
+171 expanded nodes.
+0.002 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=7
+Cost=7
+114 expanded nodes.
+0.001 seconds.
+
+h1
+Depth=7
+Cost=7
+7 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=7
+Cost=7
+7 expanded nodes.
+0.000 seconds.
+
+
+  {2,3,6},
+  {1,7,5},
+  {4,0,8}
+
+./search -a tree -f breadth
+Depth=9
+Cost=9
+15305 expanded nodes.
+0.020 seconds.
+
+./search -a tree -f a-star
+h0
+Depth=9
+Cost=9
+8147 expanded nodes.
+2.586 seconds.
+
+h1
+Depth=9
+Cost=9
+16 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=9
+Cost=9
+9 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f breadth
+Depth=9
+Cost=9
+454 expanded nodes.
+0.007 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=9
+Cost=9
+331 expanded nodes.
+0.006 seconds.
+
+h1
+Depth=9
+Cost=9
+16 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=9
+Cost=9
+9 expanded nodes.
+0.000 seconds.
+
+
+  {2,3,6},
+  {1,7,0},
+  {4,8,5}
+
+./search -a tree -f breadth
+Depth=11
+Cost=11
+109513 expanded nodes.
+0.138 seconds.
+
+./search -a tree -f a-star
+h0
+Depth=11
+Cost=11
+77779 expanded nodes.
+343.309 seconds.
+
+
+h1
+Depth=11
+Cost=11
+141 expanded nodes.
+0.000 seconds.
+
+
+h2
+Depth=11
+Cost=11
+25 expanded nodes.
+0.000 seconds.
+
+./search -a graph -f breadth
+Depth=11
+Cost=11
+1134 expanded nodes.
+0.017 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=11
+Cost=11
+932 expanded nodes.
+0.021 seconds.
+
+h1
+Depth=11
+Cost=11
+47 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=11
+Cost=11
+17 expanded nodes.
+0.000 seconds.
+
+
+  {2,0,3},
+  {1,7,6},
+  {4,8,5}
+  
+./search -a tree -f breadth
+Depth=13
+Cost=13
+764873 expanded nodes.
+0.311 seconds.
+
+./search -a tree -f a-star
+h0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LLEVABA 12 HORAS Y SE ME MURíO LA TERMINAL snif snif
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+h1
+Depth=13
+Cost=13
+3488 expanded nodes.
+0.269 seconds.
+
+h2
+Depth=13
+Cost=13
+2291 expanded nodes.
+0.028 seconds.
+
+./search -a graph -f breadth
+Depth=13
+Cost=13
+2702 expanded nodes.
+0.083 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=13
+Cost=13
+2700 expanded nodes.
+0.175 seconds.
+
+h1
+Depth=13
+Cost=13
+125 expanded nodes.
+0.000 seconds.
+
+h2
+Depth=13
+Cost=13
+80 expanded nodes.
+0.000 seconds.
+
+  {2,7,3},
+  {0,1,6},
+  {4,8,5}
+  
+./search -a tree -f breadth
+Depth=15
+Cost=15
+6007753 expanded nodes.
+2.627 seconds.
+
+./search -a tree -f a-star
+h0
+!!!!!!!!!!!!!!!!!!
+Es que el otro lleva más de 8 horas
+!!!!!!!!!!!!!!!!!!
+h1
+Depth=15
+Cost=15
+17302 expanded nodes.
+26.313 seconds.
+
+h2
+Depth=15
+Cost=15
+2884 expanded nodes.
+0.116 seconds.
+
+./search -a graph -f breadth
+Depth=15
+Cost=15
+6874 expanded nodes.
+0.592 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=15
+Cost=15
+7949 expanded nodes.
+1.848 seconds.
+
+h1
+Depth=15
+Cost=15
+294 expanded nodes.
+0.001 seconds.
+
+h2
+Depth=15
+Cost=15
+91 expanded nodes.
+0.000 seconds.
+
+
+  {2,7,3},
+  {4,1,6},
+  {8,0,5}
+  
+./search -a tree -f breadth
+Depth=17
+Cost=17
+35367881 expanded nodes.
+61.260 seconds.
+
+./search -a tree -f a-star
+h1
+Depth=17
+Cost=17
+97318 expanded nodes.
+710.533 seconds.
+
+h2
+Depth=17
+Cost=17
+14364 expanded nodes.
+1.142 seconds.
+
+./search -a graph -f breadth
+Depth=17
+Cost=17
+14015 expanded nodes.
+2.743 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=17
+Cost=17
+19532 expanded nodes.
+14.278 seconds.
+
+h1
+Depth=17
+Cost=17
+692 expanded nodes.
+0.009 seconds.
+
+h2
+Depth=17
+Cost=17
+250 expanded nodes.
+0.000 seconds.
+
+
+
+
+  {2,3,6},
+  {4,7,5},
+  {8,0,1}
+  
+./search -a tree -f a-star
+h2
+Depth=19
+Cost=19
+46032 expanded nodes.
+8.342 seconds.
+
+./search -a graph -f breadth
+Depth=19
+Cost=19
+33962 expanded nodes.
+15.709 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=19
+Cost=19
+37678 expanded nodes.
+40.210 seconds.
+
+h1
+Depth=19
+Cost=19
+1625 expanded nodes.
+0.058 seconds.
+
+h2
+Depth=19
+Cost=19
+399 expanded nodes.
+0.003 seconds.
+
+
+  {2,0,6},
+  {4,3,5},
+  {8,7,1}
+
+./search -a tree -f a-star
+h2
+Depth=21
+Cost=21
+270648 expanded nodes.
+1008.315 seconds.
+
+./search -a graph -f breadth
+Depth=21
+Cost=21
+78065 expanded nodes.
+134.087 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=21
+Cost=21
+65431 expanded nodes.
+167.532 seconds.
+
+
+h1
+Depth=21
+Cost=21
+3945 expanded nodes.
+0.329 seconds.
+
+h2
+Depth=21
+Cost=21
+744 expanded nodes.
+0.010 seconds.
+
+
+  {4,2,6},
+  {0,3,5},
+  {8,7,1}
+  
+./search -a graph -f breadth
+Depth=23
+Cost=23
+123591 expanded nodes.
+546.350 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=23
+Cost=23
+101779 expanded nodes.
+536.268 seconds.
+
+h1
+Depth=23
+Cost=23
+9392 expanded nodes.
+1.901 seconds.
+
+h2
+Depth=23
+Cost=23
+1923 expanded nodes.
+0.058 seconds.
+
+
+  {5,0,6},
+  {3,4,2},
+  {8,7,1}
+
+./search -a graph -f breadth
+Depth=25
+Cost=25
+146906 expanded nodes.
+1275.706 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=25
+Cost=25
+142844 expanded nodes.
+1497.657 seconds.
+
+h1
+Depth=25
+Cost=25
+22077 expanded nodes.
+11.400 seconds.
+
+h2
+Depth=25
+Cost=25
+1566 expanded nodes.
+0.040 seconds.
+
+
+  {5,6,2},
+  {3,4,0},
+  {8,7,1}
+  
+./search -a graph -f breadth
+Depth=27
+Cost=27
+177528 expanded nodes.
+2051.347 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=27
+Cost=27
+171151 expanded nodes.
+2300.886 seconds.
+
+h1
+Depth=27
+Cost=27
+44719 expanded nodes.
+79.484 seconds.
+
+h2
+Depth=27
+Cost=27
+5201 expanded nodes.
+0.477 seconds.
+
+
+  {6,5,7},
+  {0,8,4},
+  {1,2,3}
+  
+./search -a graph -f breadth
+Depth=29
+Cost=29
+180630 expanded nodes.
+2247.118 seconds.
+
+./search -a graph -f a-star
+h0
+Depth=29
+Cost=29
+181208 expanded nodes.
+2660.253 seconds.
+
+h1
+Depth=29
+Cost=29
+75960 expanded nodes.
+255.416 seconds.
+
+h2
+Depth=29
+Cost=29
+4316 expanded nodes.
+0.308 seconds.
+
+
